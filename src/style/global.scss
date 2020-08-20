@@ -5,8 +5,16 @@ body{
 }
 
 .container{
-    width: 100%;
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 0 16px;
+    width: 100% !important;
+    max-width: 1240px !important;
+    margin: 0 auto !important;
+    padding: 0 16px !important;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: $header-font !important;
+}
+
+p, a{
+    font-family: $para-font !important;
 }

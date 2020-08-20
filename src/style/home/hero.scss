@@ -19,7 +19,9 @@
         z-index: 4;
         text-align: left;
         color: $gray-text-color;
-
+        h1{
+            font-weight: 800 !important;
+        }
 }
     button{
         background-color: $main-blue !important;
