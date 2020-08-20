@@ -5,9 +5,30 @@
             margin-right: 1rem;
         }
     }
+    .navbar-collapse{
+        z-index: 20;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 50px;
     .navbar-nav{
         .nav-link{
             margin: 0 1.5rem;
         }
+        .btn{
+            border-color: $main-blue !important;
+            &:hover{
+                background-color: $main-blue !important;
+                color: white !important;
+            }
+        }
+    }
+    }
+    
+}
+
+@include respond(largeScreen){
+    .navbar-collapse{
+        top: 10px !important;
     }
 }
