@@ -1,5 +1,6 @@
 @import "./variables.scss";
-@import "mixin.scss";
+@import "./mixin.scss";
 
-@import "./navbar.scss";
-@import "./hero.scss";
+@import "./home/navbar.scss";
+@import "./home/hero.scss";
+@import "./home/organizations.scss";

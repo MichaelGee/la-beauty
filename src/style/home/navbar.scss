@@ -15,11 +15,13 @@
         .nav-link{
             margin: 0 1.5rem;
         }
-        .btn{
-            border-color: $main-blue !important;
+        button{
+            background-color: $main-blue !important;
+            color: white !important;
             &:hover{
-                background-color: $main-blue !important;
-                color: white !important;
+                background-color: white !important;
+                color: black !important;
+                border-color: $main-blue !important;
             }
         }
     }

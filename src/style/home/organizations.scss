@@ -1,0 +1,35 @@
+.organizations{
+    padding: 5rem 0 5rem;
+    .organize__container{
+        h3{
+          margin: 3rem 0 6rem;
+          color: $gray-text-color;
+          span{
+              color: $main-blue;
+          }
+        }
+        .organize__container__images{
+          display: flex;
+          justify-content: space-between;
+          img{
+              width: 20%;
+          }
+        }
+    }
+}
+
+@include respond(largeScreen){
+    .organizations{
+       
+        .organize__container{
+            h3{
+              margin: 3rem 0 6rem;
+            }
+            .organize__container__images{
+              img{
+                  width: 13% !important;
+              }
+            }
+        }
+    }
+}

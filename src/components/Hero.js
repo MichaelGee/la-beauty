@@ -6,7 +6,7 @@ const Hero = () => {
       <section className='hero'>
         <div className='container hero__container'>
           <div className='hero__img'>
-            <img src={HeroImg} alt='doc-and-nurse-image' />
+            <img src={HeroImg} alt='doc-and-nurse' />
           </div>
           <div className='hero__text'>
             <h1>Connecting patients & clinics</h1>
