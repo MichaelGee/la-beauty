@@ -1,0 +1,65 @@
+.service{
+    padding: 5rem 0 5rem;
+    .service__container{
+       h1{
+        margin: 3rem 0 6rem;
+        color: $gray-text-color;
+       }
+       .card__container{
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           align-items: center;
+           .card{
+               border-radius: 14px;
+               border: none;
+               background-color: #fff;
+               margin: 1rem 1rem;
+               height: 400px;
+               width: 80%;
+                box-shadow: 0 2px 70px -10px rgba(0,0,0,.2);
+               .card__body{
+                   padding: 3rem;
+                   img{
+                     width: 20%;
+                     margin: 2rem 0;
+                   }
+                   h3{
+                    margin: 1rem 0;
+                    color: $gray-text-color;
+                   }
+                   p{
+                    color: $gray-text-color;
+                   }
+               }
+           }
+       }
+    }
+}
+
+@include respond(largeScreen){
+    .service{
+        .service__container{
+           h1{
+    
+           }
+           .card__container{
+               flex-direction: row;
+               justify-content: space-around;
+               .card{
+                   .card__body{
+                       img{
+                         width: 20%;
+                       }
+                       h3{
+    
+                       }
+                       p{
+    
+                       }
+                   }
+               }
+           }
+        }
+    }
+}
