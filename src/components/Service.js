@@ -8,7 +8,7 @@ const Service = () => {
     <div>
       <section className='service'>
         <div className='container service__container'>
-          <h1>Services</h1>
+          <h1>Our Services</h1>
           <div className='card__container'>
             <div className='card'>
               <div className='card__body'>
