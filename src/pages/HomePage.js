@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Organizations from "../components/Organizations";
 import Service from "../components/Service";
+import BookingInfo from "../components/BookingInfo";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <Hero />
       <Organizations />
       <Service />
+      <BookingInfo />
     </div>
   );
 };

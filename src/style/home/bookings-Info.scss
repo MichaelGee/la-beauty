@@ -1,0 +1,70 @@
+.bookingInfo{
+    .bookingInfo__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        .bookingInfo__text{
+            padding: 0 4rem;
+            text-align: left;
+            margin-bottom: 2rem;
+            h1{
+               margin-bottom:2rem;
+            }
+            p{
+                
+                span{
+                    img{
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .female-doc{
+           width: 80%;
+        }
+        .doc-card{
+            position: absolute;
+            right: 32px;
+            bottom: -87px;
+            z-index: 10;
+            width: 45%;
+        }
+    }
+}
+
+@include respond(largeScreen){
+    .bookingInfo{
+        .bookingInfo__container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .bookingInfo__text{
+                padding: 0 5rem 0 0;
+                h1{
+                   
+                }
+                p{
+                    text-align: justify;
+                    span{
+                        img{
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+            .female-doc{
+                width: 40%;
+             }
+             .doc-card{
+                 position: absolute;
+                 right: -19px;
+                 bottom: -80px;
+                 z-index: 10;
+                 width: 23%;
+             }
+        }
+    }
+}
