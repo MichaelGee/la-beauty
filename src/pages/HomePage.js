@@ -5,6 +5,7 @@ import Organizations from "../components/Organizations";
 import Service from "../components/Service";
 import BookingInfo from "../components/BookingInfo";
 import Appointment from "../components/Appointment";
+import Testimonial from "../components/Testimonial";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Service />
       <BookingInfo />
       <Appointment />
+      <Testimonial />
     </div>
   );
 };
