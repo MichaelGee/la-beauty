@@ -1,0 +1,195 @@
+
+.footer{
+    background: $footer-color;
+    margin: 0 !important;
+    .footer__container{
+        color: $footer-text-color;
+        padding-top: 10rem !important;
+        padding-bottom: 3rem !important;
+        .first__section{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 6rem;
+            .first_left_part{
+                .contact__details{
+                  p{
+                    text-align: left;
+                    span{
+                        img{
+                            margin-right: 1rem;
+                        }
+                    }
+                  }
+                }
+                .social__icons{
+                    text-align: left;
+                    margin-top: 2rem;
+                    img{
+                        margin-right: 3rem;
+                    }
+                }
+            }
+            .first_right_part{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .first__column, .second__column, .third__column{
+                    ul{
+                        .list_title{
+                            font-weight: bold;
+                            color: white; 
+                        }
+                        li{
+                            list-style: none;
+                            text-align: left;
+                            margin: 1.2rem 0;
+                        }
+                    }
+                }
+            }
+        }
+        .second__section{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            .second_left_part{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: left;
+                p{
+                    margin-left: 2rem
+                }
+                .footer_logo{
+                    width: 15%;
+                }
+            }
+            .second_right_part{
+                .email_form{
+                    
+                    input{
+                        padding: 0.6rem;
+                        border: 1.5px solid $footer-text-color;
+                        background: $footer-color;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        border-right: none;
+                        &::placeholder{
+                            color: $footer-text-color;
+                        }
+                    }
+                    button{
+                        padding: 0.7rem 2rem;
+                        background: white;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        border: none;
+                      }
+                }
+            }
+        }
+    }
+}   
+
+@include respond(largeScreen){
+  
+.footer{
+    background: $footer-color;
+    margin: 0 !important;
+    .footer__container{
+        color: $footer-text-color;
+        padding-top: 10rem !important;
+        padding-bottom: 3rem !important;
+        .first__section{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 6rem;
+            flex-direction: row;
+            .first_left_part{
+                .contact__details{
+                  p{
+                    text-align: left;
+                    span{
+                        img{
+                            margin-right: 1rem;
+                        }
+                    }
+                  }
+                }
+                .social__icons{
+                    text-align: left;
+                    margin-top: 2rem;
+                    img{
+                        margin-right: 3rem;
+                    }
+                }
+            }
+            .first_right_part{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .first__column, .second__column, .third__column{
+                    ul{
+                        .list_title{
+                            font-weight: bold;
+                            color: white; 
+                        }
+                        li{
+                            list-style: none;
+                            text-align: left;
+                            margin: 1.2rem 0;
+                        }
+                    }
+                }
+            }
+        }
+        .second__section{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            .second_left_part{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: left;
+                p{
+                    margin-left: 2rem
+                }
+                .footer_logo{
+                    width: 15%;
+                }
+            }
+            .second_right_part{
+                .email_form{
+                    
+                    input{
+                        padding: 0.6rem;
+                        border: 1.5px solid $footer-text-color;
+                        background: $footer-color;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        border-right: none;
+                        &::placeholder{
+                            color: $footer-text-color;
+                        }
+                    }
+                    button{
+                        padding: 0.7rem 2rem;
+                        background: white;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        border: none;
+                      }
+                }
+            }
+        }
+    }
+}   
+ 
+
+}

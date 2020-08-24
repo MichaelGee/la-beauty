@@ -25,7 +25,7 @@ const Footer = () => {
                   <span>
                     <img src={headphone} alt='headphone' />
                   </span>
-                  0123456789
+                  +0123456789
                 </p>
                 <p>
                   <span>
@@ -45,7 +45,9 @@ const Footer = () => {
             <div className='first_right_part'>
               <div className='first__column'>
                 <ul>
-                  <li className='list_title'>Quick Link</li>
+                  <li className='list_title'>
+                    <h5>Quick Link</h5>
+                  </li>
                   <li>Who we are</li>
                   <li>Our mission</li>
                   <li>Awards</li>
@@ -54,7 +56,9 @@ const Footer = () => {
               </div>
               <div className='second__column'>
                 <ul>
-                  <li className='list_title'>Departments</li>
+                  <li className='list_title'>
+                    <h5>Departments</h5>
+                  </li>
                   <li>Who we are</li>
                   <li>Our mission</li>
                   <li>Awards</li>
@@ -63,7 +67,9 @@ const Footer = () => {
               </div>
               <div className='third__column'>
                 <ul>
-                  <li className='list_title'>Others</li>
+                  <li className='list_title'>
+                    <h5>Others</h5>
+                  </li>
                   <li>Who we are</li>
                   <li>Our mission</li>
                   <li>Awards</li>
@@ -74,10 +80,11 @@ const Footer = () => {
           </div>
           <div className='second__section'>
             <div className='second_left_part'>
-              <img src={Logo} alt='logo' />
+              <img src={Logo} alt='logo' className='footer_logo' />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+                Lorem ipsum dolor sit amet, consectetur
+                <br /> adipiscing elit, sed do eiusmod tempor incididunt
+                <br /> ut labore et dolore magna aliqua.{" "}
               </p>
             </div>
             <div className='second_right_part'>
