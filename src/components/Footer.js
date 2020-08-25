@@ -36,9 +36,9 @@ const Footer = () => {
               </div>
               {/* SOCIAL ICONS */}
               <div className='social__icons'>
-                <img src={facebook} alt='facebook' />
-                <img src={insta} alt='instagram' />
-                <img src={linkedin} alt='linkedin' />
+                <img className='social__logo' src={facebook} alt='facebook' />
+                <img className='social__logo' src={insta} alt='instagram' />
+                <img className='social__logo' src={linkedin} alt='linkedin' />
               </div>
             </div>
             {/* FIRST SECTION RIGHT PART */}
@@ -84,7 +84,7 @@ const Footer = () => {
               <p>
                 Lorem ipsum dolor sit amet, consectetur
                 <br /> adipiscing elit, sed do eiusmod tempor incididunt
-                <br /> ut labore et dolore magna aliqua.{" "}
+                <br /> ut labore et dolore magna aliqua.
               </p>
             </div>
             <div className='second_right_part'>
@@ -98,6 +98,9 @@ const Footer = () => {
           </div>
         </div>
       </section>
+      <div className='footer-end'>
+        <p>&copy; Copyright Le-Beauty 2019. All Right Reserved.</p>
+      </div>
     </div>
   );
 };
